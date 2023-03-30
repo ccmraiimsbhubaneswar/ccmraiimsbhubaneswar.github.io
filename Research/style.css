@@ -16,6 +16,8 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 html {
@@ -58,7 +60,7 @@ html {
 
 .navbar-link:hover,
 .navbar-link:active {
-  color: black;
+  color: grey;
 }
 
 .mobile-nav-icon {
@@ -230,12 +232,12 @@ html {
   }
 
   .navbar {
-    width: 60%;
+    width: 40%;
     height: fit-content;
     background-color: black;
     position: absolute;
     top: 0;
-    left: 40%;
+    left: 60%;
     padding: 2%;
     display: flex;
     justify-content: center;
@@ -275,6 +277,10 @@ html {
 @media(max-width:35em) {
   .header {
     padding: 0 1rem;
+  }
+
+  .header h1 {
+    font-size: 20px;
   }
 
   .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
