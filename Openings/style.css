@@ -12,9 +12,15 @@ html {
 
 .header h1 {
     font-weight: 400;
-    color: black;
+    color: white;
     padding: 2%;
     font-size: 25px;
+}
+
+.main h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 2% 2% 2% 0;
 }
 
 .header {
@@ -24,7 +30,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(251, 249, 249);
+    background-color: rgb(31, 31, 84);
     border-bottom: 4px solid gray;
 }
 
@@ -40,13 +46,13 @@ html {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
-    color: gray;
+    color: white;
     transition: all 0.3s;
 }
 
 .navbar-link:hover,
 .navbar-link:active {
-    color: black;
+    color: grey;
 }
 
 .mobile-nav-icon {
@@ -58,6 +64,7 @@ html {
     display: none;
     background: transparent;
     cursor: pointer;
+    color: white;
 }
 
 .mobile-nav-icon[name="close-outline"] {
@@ -246,7 +253,7 @@ h6,
     .navbar {
         width: 40%;
         height: fit-content;
-        background-color: rgb(251, 249, 249);
+        background-color: black;
         position: absolute;
         top: 0;
         left: 60%;
@@ -333,7 +340,7 @@ h6,
     .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
         display: block;
         position: absolute;
-        top: -20%;
+        top: -8%;
         left: 90%;
     }
 
@@ -341,7 +348,7 @@ h6,
         display: block;
         margin-bottom: 5%;
         position: absolute;
-        top: -18%;
+        top: -7%;
         left: 90%;
     }
 }
