@@ -256,7 +256,7 @@ h6,
         justify-content: center;
         align-items: center;
         transform: translateX(100%);
-        transition: all 0.5s linear;
+        transition: all 0.4s linear;
         opacity: 0;
         padding: 2%;
         border: 1px solid lightgray;
@@ -330,5 +330,20 @@ h6,
 
     #blog .blog-details {
         width: 100%;
+    }
+
+    .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+        display: block;
+        position: absolute;
+        top: -20%;
+        left: 90%;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+        display: block;
+        margin-bottom: 5%;
+        position: absolute;
+        top: -18%;
+        left: 90%;
     }
 }

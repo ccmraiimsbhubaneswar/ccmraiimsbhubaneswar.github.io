@@ -213,6 +213,11 @@ html {
 }
 
 @media(max-width:62em) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
   .mobile-navbar-btn {
     display: block;
     z-index: 999;
@@ -238,7 +243,7 @@ html {
     justify-content: center;
     align-items: center;
     transform: translateX(100%);
-    transition: all 0.5s linear;
+    transition: all 0.4s linear;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -272,5 +277,20 @@ html {
 @media(max-width:35em) {
   .header {
     padding: 0 1rem;
+  }
+
+  .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+    display: block;
+    position: absolute;
+    top: -18%;
+    left: 90%;
+  }
+
+  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+    display: block;
+    margin-bottom: 5%;
+    position: absolute;
+    top: -18%;
+    left: 90%;
   }
 }
