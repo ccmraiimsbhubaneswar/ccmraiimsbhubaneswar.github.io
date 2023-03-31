@@ -283,12 +283,12 @@ html {
     font-size: 20px;
   }
 
-  .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+  /* .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
     display: block;
     position: absolute;
     top: -8%;
     left: 90%;
-  }
+  } */
 
   .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
     display: block;
